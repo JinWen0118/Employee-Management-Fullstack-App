@@ -513,7 +513,7 @@ const Dashboard = () => {
         <Grid item xs={12} sm={6} md={4}>
           <Card sx={{ ...cardBase }}>
             <CardContent>
-              <Typography variant="h6">Gender Distribution</Typography>
+              <Typography variant="h6">Gender Distribution </Typography>
               <Bar data={genderChartData} options={{ scales: { y: { beginAtZero: true } } }} />
             </CardContent>
           </Card>
